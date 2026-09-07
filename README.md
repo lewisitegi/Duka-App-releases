@@ -4,7 +4,13 @@ Public APK releases for Duka Manager
 ## Downloads
 | Version | File | Date |
 |---------|------|------|
-| v1.3.1 (build 6) | [DukaManager-v1.3.1.apk](./DukaManager-v1.3.1.apk) | 2026-09-02 |
+| v1.3.2 (build 7) | [DukaManager-v1.3.2.apk](./DukaManager-v1.3.2.apk) | 2026-09-07 |
+
+## v1.3.2 Highlights
+- Start fresh is now available any time from Settings → Import / Restore (previously only right after a reinstall) — permanently delete the cloud copy, all local backups and, if you choose, the shop data currently on this phone
+- Pending uploads are cleared before a start-fresh wipe, so queued data can't re-create the cloud copy afterwards
+- Cloud wipe is now thorough: rows saved by older app versions without a shop id can no longer resurface after wiping
+- New admin action: Revoke License — stops a paid license immediately (~30s while the phone is online) and keeps the remaining paid time so Resume can restore it
 
 ## v1.3.1 Highlights
 - Backups you control: after a reinstall the app shows exactly what your backup contains (products, stock, sales, customers, debts, logs, notes) and lets you pick what to import — nothing is added automatically anymore
