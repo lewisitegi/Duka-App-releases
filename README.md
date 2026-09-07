@@ -4,7 +4,17 @@ Public APK releases for Duka Manager
 ## Downloads
 | Version | File | Date |
 |---------|------|------|
-| v1.3.2 (build 7) | [DukaManager-v1.3.2.apk](./DukaManager-v1.3.2.apk) | 2026-09-07 |
+| v1.3.4 (build 9) | [DukaManager-v1.3.4.apk](./DukaManager-v1.3.4.apk) | 2026-09-07 |
+
+## v1.3.4 Highlights
+- Fixed: saving a product could freeze the screen and tapping Save repeatedly added the SAME product several times — now one save, the button can't double-fire, and any failure shows a clear message instead of a stuck spinner
+- New: barcodes are scanned TWICE when adding a product — the second scan must match the first (and the barcode must leave the frame in between), so a misread never becomes your product's barcode
+- Cart/POS: the camera now stays minimized while you add products from the list — it no longer pops back up after every item, and it pauses while minimized to save battery
+
+## v1.3.3 Highlights
+- Start fresh is now far more reliable: the cloud delete retries automatically (up to 3 attempts, 30s each) so a cold server or a weak connection no longer stops it — installs over v1.3.2 fix the "Could not reach the server" error that could appear even while online
+- When a delete still fails, the app shows the real reason (e.g. session expired, server error) instead of always blaming the internet connection
+- Failed deletes are recorded in the activity log so issues can be traced
 
 ## v1.3.2 Highlights
 - Start fresh is now available any time from Settings → Import / Restore (previously only right after a reinstall) — permanently delete the cloud copy, all local backups and, if you choose, the shop data currently on this phone
