@@ -4,7 +4,13 @@ Public APK releases for Duka Manager
 ## Downloads
 | Version | File | Date |
 |---------|------|------|
+| v1.3.5 (build 10) | [DukaManager-v1.3.5.apk](./DukaManager-v1.3.5.apk) | 2026-09-09 |
 | v1.3.4 (build 9) | [DukaManager-v1.3.4.apk](./DukaManager-v1.3.4.apk) | 2026-09-07 |
+
+## v1.3.5 Highlights
+- New: every sale now ends with a full printed-style receipt instead of the small "Sale Completed!" popup — shop name at the top, bill number and date/time, an itemized table with quantity, rate and amount per item, and the grand total
+- Receipt shows the payment mode (Cash or M-Pesa) and, when a discount was applied, a "You saved" line with the amount the customer saved
+- Back and Print buttons at the bottom — Print hands the receipt to the share sheet so it can be sent to the customer via WhatsApp/SMS or passed to a print service
 
 ## v1.3.4 Highlights
 - Fixed: saving a product could freeze the screen and tapping Save repeatedly added the SAME product several times — now one save, the button can't double-fire, and any failure shows a clear message instead of a stuck spinner
