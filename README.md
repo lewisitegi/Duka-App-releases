@@ -4,8 +4,15 @@ Public APK releases for Duka Manager
 ## Downloads
 | Version | File | Date |
 |---------|------|------|
+| v1.4.5 (build 17) | [DukaManager-v1.4.5.apk](./DukaManager-v1.4.5.apk) | 2026-09-21 |
 | v1.3.5 (build 10) | [DukaManager-v1.3.5.apk](./DukaManager-v1.3.5.apk) | 2026-09-09 |
 | v1.3.4 (build 9) | [DukaManager-v1.3.4.apk](./DukaManager-v1.3.4.apk) | 2026-09-07 |
+
+## v1.4.5 Highlights
+- Reports rebuilt as one simple page: Money (Sales, Expenses, Profit plus a Cash/M-Pesa line), Stock (in shop, sold, added, low/out), Customers (total, new, returning, they owe you) and Best Sellers - everything important at a glance, details one tap away
+- Reports are always consistent now: the weekly report covers the last 7 days INCLUDING today, and Sales, Costs, Expenses and Profit are counted over the exact same window - the daily total can never be bigger than the weekly one again
+- One profit number everywhere: Profit - money you keep, the same figure on the Reports page and in the Profit Breakdown screen (the confusing Gross/Net pair is gone)
+- Plain-language losses: a bad week now says Every KSh 100 received leaves 30 short instead of the confusing you-keep -30%
 
 ## v1.3.5 Highlights
 - New: every sale now ends with a full printed-style receipt instead of the small "Sale Completed!" popup — shop name at the top, bill number and date/time, an itemized table with quantity, rate and amount per item, and the grand total
